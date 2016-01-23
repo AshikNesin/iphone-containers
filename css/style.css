@@ -1,0 +1,57 @@
+.positioning {
+  position: absolute;
+  width: 15em;
+  height: 33.8em;
+  top: 15%;
+  left: 50%;
+  margin-left: -10em;
+}
+
+.positioning .iphone {
+  height: 33.8em;
+  width: 15em;
+  margin: 0 auto;
+}
+
+.positioning .iphone figure {
+  display: block;
+  position: absolute;
+   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.positioning .iphone .front {
+  height: 31.8em;
+  width: 15em;
+  background-color: #333;
+  overflow: hidden;
+  /*border-radius: 30px;*/
+  background:
+    url(../img/containers/iphone-6-plus/silver.png) no-repeat 49% 50%;
+  background-size: cover;
+}
+
+.positioning .iphone .front .screen {
+  width: 13.1em;
+  height: 22.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4.4em;
+  /*background-color: #222;*/
+  /*overflow-y: scroll;*/
+  overflow: hidden;
+}
+
+.positioning .iphone .front .screen img {
+  width: 100%;
+  height: auto;
+}
+
+.positioning .iphone .front .screen video {
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+}
